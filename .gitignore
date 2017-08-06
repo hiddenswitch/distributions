@@ -11,3 +11,4 @@ temp.*
 *.swp
 doc/_build
 MANIFEST
+.idea/
