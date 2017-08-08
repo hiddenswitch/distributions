@@ -114,7 +114,7 @@ def make_extension(name):
     if use_protobuf:
         libraries.append('protobuf')
     if name.startswith('lp'):
-        libraries = ['distributions_shared'] + libraries
+        libraries = ['distributions_shared_release'] + libraries
     return Extension(
         module,
         sources=sources,
